@@ -18,3 +18,8 @@ Based upon work by @Ibeech [https://github.com/iBeech/SmartThings](https://githu
 2. Install WebIOpi SmartApp
 3. Publish WebIOpi SmartApp
 4. Add SmartApp from the Smarthings Mobile App
+
+
+## TODO
+* Update / better documentation
+* Code cleanup
