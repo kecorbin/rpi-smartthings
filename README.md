@@ -8,9 +8,13 @@ Hopefully others find this useful.
 Based upon work by @Ibeech [https://github.com/iBeech/SmartThings](https://github.com/iBeech/SmartThings)
 
 ## Requirements
-* Smartthings Hub
-* Raspberry Pi
-* Various Contact/Motion Sensors supported.  
+- Smartthings Hub
+- Raspberry Pi
+- Various Contact/Motion Sensors.  
+- WebIOPi 
+
+
+*NOTE:* RPi2/RPi3 are not officially supported by WebIOPi.  I've posted a patched version [Here](https://github.com/kecorbin/webiopi) to save you some time. 
 
 ## Usage
 
@@ -18,6 +22,11 @@ Based upon work by @Ibeech [https://github.com/iBeech/SmartThings](https://githu
 2. Install WebIOpi SmartApp
 3. Publish WebIOpi SmartApp
 4. Add SmartApp from the Smarthings Mobile App
+
+
+## Troubleshooting
+
+Depending on your sensor type, you might want to mess with the internal pullup/pulldowns on the GPIO's. 
 
 
 ## TODO
